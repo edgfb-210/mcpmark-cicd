@@ -1,14 +1,12 @@
-// Example file with linting errors
+// Example file with linting errors (fixed)
 
-const greeting = "Hello World"
-console.log(greeting)
-
-let unusedVar = 42
+const greeting = 'Hello World';
+console.log(greeting);
 
 function test() {
-  return "test"
+  return 'test';
 }
 
 if (true) {
-  console.log("true")
+  console.log('true');
 }
